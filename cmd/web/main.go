@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/adrpur/bookings/pkg/config"
-	"github.com/adrpur/bookings/pkg/handlers"
-	"github.com/adrpur/bookings/pkg/render"
+	"github.com/adrpur/bookings/internal/config"
+	"github.com/adrpur/bookings/internal/handlers"
+	"github.com/adrpur/bookings/internal/render"
 	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"
